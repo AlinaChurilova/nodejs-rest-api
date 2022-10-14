@@ -20,6 +20,7 @@ const UserSchema = Schema({
         type: String,
         default: null,
     },
+    avatarURL: String,
 });
 
 const updateSubscriptionSchema = Joi.object({
